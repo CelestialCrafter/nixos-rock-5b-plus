@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1747179050,
+        "narHash": "sha256-qhFMmDkeJX9KJwr5H32f1r7Prs7XbQWtO0h3V0a0rFY=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "adaa24fbf46737f3f1b5497bf64bae750f82942e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "radxa-kernel": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1746698212,
+        "narHash": "sha256-s9aRMHkTKgmIPtlsy0Yibwc3KhJox/mx/hSu1vsRdlw=",
+        "owner": "radxa",
+        "repo": "kernel",
+        "rev": "7c74a031cd7c0e70448eaae1954d2695afa3e35c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "radxa",
+        "repo": "kernel",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "radxa-kernel": "radxa-kernel"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
